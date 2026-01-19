@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nuestra Boda</title>
+
+  <!-- Fuente elegante y gratuita -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- PORTADA -->
+  <section class="page portada">
+    <h1>Cristian & Erika</h1>
+    <p class="subtitle">Nos casamos</p>
+    <span class="hint">Desliza ↓</span>
+  </section>
+
+<button id="music-btn" class="btn small">
+  ▶ Música
+</button>
+
+<audio id="music" loop>
+  <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+  <!-- EVENTO -->
+  <section class="page evento">
+    <h2>12 de Octubre · 5:00 pm</h2>
+    <p>Jardín El Olivo</p>
+    <a class="btn" href="https://maps.google.com" target="_blank">Ver ubicación</a>
+  </section>
+
+  <!-- DETALLES -->
+  <section class="page detalles">
+    <h2>Detalles</h2>
+    <ul>
+      <li>🌿 Ceremonia al aire libre</li>
+      <li>👗 Vestimenta formal</li>
+      <li>🎶 Música en vivo</li>
+    </ul>
+  </section>
+
+  <!-- RSVP -->
+  <section class="page rsvp">
+    <h2>¿Nos acompañas?</h2>
+    <a class="btn" href="https://wa.me/XXXXXXXXXX" target="_blank">
+      Confirmar asistencia
+    </a>
+  </section>
+<iframe
+  src="https://docs.google.com/forms/d/e/XXXXXXXX/viewform?embedded=true"
+  width="100%"
+  height="500"
+  frameborder="0">
+</iframe>
+
+  <!-- CIERRE -->
+  <section class="page cierre">
+    <p>Con amor,</p>
+    <h3>Ana & Luis</h3>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<div id="countdown">
+  <span id="days"></span> días ·
+  <span id="hours"></span> horas ·
+  <span id="minutes"></span> min
+</div>
